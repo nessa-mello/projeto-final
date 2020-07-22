@@ -76,6 +76,12 @@ li {
     transition: all 0.3s;
 }
 
+.imagem-carousel {
+    object-fit: fill;
+    object-position: 0 40%;
+
+}
+
  @media screen and (max-width: 1280px){
     .nav-links{
         width: 60%;
@@ -125,14 +131,13 @@ li {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px));
-    
+    transform: rotate(-45deg) translate(-5px, 6px);   
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(45deg) translate(-5px, 6px)); 
+    transform: rotate(45deg) translate(-5px, 6px); 
 } 
 
 
