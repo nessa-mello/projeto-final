@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rowdies:wght@300&display=swap" rel="stylesheet">
     
     
-    <title>doeparaumpet</title>
+    <title>doeraçãoparaumpet</title>
 </head>
 
 <body>
@@ -17,18 +17,19 @@
         <div class="logo"><a href ="#"><img src="img/WhatsApp Image 2020-07-21 at 16.28.22.jpeg" alt="logo patinha cão e gato"></a>
             <h4>Doe ração para um pet</h4>
         </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
         <ul class="nav-links">
             <li>
-                <a href="#">Home</a>
+                <a href="#section-home">Home</a>
             </li>
             <li>
-                <a href="#">Sobre</a>
+                <a href="#section-sobre">Sobre</a>
             </li>
             <li>
-                <a href="#">Iniciativas</a>
+                <a href="#section-iniciativas">Iniciativas</a>
             </li>
             <li>
-                <a href="#">Galeria</a>
+                <a href="#footer">Contato</a>
             </li>
         </ul>
         
@@ -41,6 +42,8 @@
 
     </nav>
     <header>
+      <div class="separator"></div>
+      <section class="container" id="section-home"></section>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -49,13 +52,14 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class ="d-block w-100 imagem-carousel"  src="./img/caoegato.webp" alt="Primeiro slide">
+            <img class ="d-block w-100 imagem-carousel"  src="img/Neguinha.jpeg" alt="Primeiro slide">
+            
           </div>
           <div class="carousel-item">
             <img class="d-block w-100 imagem-carousel" src="/img/gatinhos.webp"alt="Segundo slide">
           </div> 
           <div class="carousel-item">
-            <img class="d-block w-100 imagem-carousel" src="/img/filhote.webp"alt="Segundo slide">
+            <img class="d-block w-100 imagem-carousel" src="/img/filhote.webp"alt="Terceiro slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,6 +72,145 @@
         </a>
       </div>
     </header>
+
+    <!-- <header class="jumbotron jumbotron-fluid"></header> -->
+    <div class="separator"></div>
+    <section class="container text-center" id="section-sobre">
+        <!-- <h2>Campanha Doe ração para um pet</h2> -->
+        <div class="row sessao-sobre">
+            <img class="sobre-imagem" src="img/caopao.jpeg" alt="cão faminto com pão">
+            <div class="col-lg-6">
+                <h3 class="iniciativa">Sobre nós</h3>
+                <p class="sobre-text">A pandemia do novo coronavírus não afetou somente a sociedade humana, mas também aqueles que são conhecidos como <strong>"o melhor amigo que um ser humano pode ter"</strong>. Com o aumento do desemprego, protetores e idealizadores de organizações não governamentais dizem que o abandono aumentou.</p>
+                <p>Tentando minimizar os impactos gerados aos animais nesse momento de pandemia que todos estamos vivendo, buscamos através de uma campanha voluntária, arrecadar e redistribuir ração para animais de famílias carentes e animais em situação de rua.</p>
+                <p>A intenção é somar e dar suporte a trabalhos que já são realizados por Ongs, protetores e prefeituras.</p>
+            </div>
+        </div>
+        <div class="sessao-sobre">
+            <div class="col-lg-6">
+
+                <p class="sobre-text">É provável que após a pandemia mais animais sejam colocados em situação de abandono e/ou devolvidos aos abrigos. As situações que levam a isso podem variar desde não conseguir alimentar o amigo devido ao desemprego causado, deixando muitas familias em situação de vunerabilidade, até a falta de tempo e paciência para cuidar do pet.</p>
+                <p>O que tentamos fazer, é evitar que o abandono por falta de condições de alimentação ocorra. E mesmo com a ajuda das Ongs que já tem dificuldades para manter tantos amigos, sabemos que a situação dos animais de rua também é muito triste e a quantidade de cães e gatos aguardando um novo lar que já era grande agora é assustadora.</p>
+            </div>
+            <img class="sobre-imagem" src="img/gatocomfome.jpeg" alt="gatos de rua">
+        </div>
+    </section>
+
+    <!-- Vamos tentar com Cards -->
+    <div class="separator"></div>
+    <section class="container" id="section-iniciativas"></section>
+ 
+      <h3 class="iniciativa">Iniciativas</h3>
+
+    <div class="card-deck">
+      <div class="card text-center">
+        <video width="320" height="300" controls="controls" autoplay="autoplay">
+        <source src="img/reciclandorodas.mp4" type="video/mp4">
+        <object data="" width="320" height="240">
+        <embed width="320" height="240" src="img/reciclandorodas.mp4">
+        </object>
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Projeto Reciclando Patas</h5>
+          <p class="card-text">Nosso objetivo é desenvolver, produzir e doar cadeirinhas para animais que tenham nascido com má formação ou que sofreram acidentes, para que esses “meninos e meninas” tenham uma chance de terem uma vidinha melhor. </p>
+          <p> Faça parte, faça a diferença!</p>
+          
+          <a href="https://projetoreciclandopatas.com.br/" class="btn btn-primary">Visitar</a> 
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="img-box">
+        <img class="card-header" src="img/Anclivepa.jpg" alt="Imagem do Hospital">
+      </div>
+        <div class="card-body">
+          <h5 class="card-title">Anclipeva-SP - Hospital Veterinário Gratuito</h5>
+          <p class="card-text">Os Hospitais Veterinários Públicos traduzem-se como medida integrante de Políticas Públicas de Saúde única, compondo um dos pilares da medicina veterinária do coletivo e do programa de manejo das populações de cães e gatos, alcançando ainda viés de cunho social, educativo e preventivo.
+         </p>
+         <a href="https://anclivepa-sp.com.br/2015/" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      
+      <div class="card text-center">
+        <img class="card-img-top" src="img/racaoagua.jpg" alt="Comedouros">
+        <div class="card-body">
+          <h5 class="card-title">Comedouros e Bebedouros gratuitos</h5>
+          <p class="card-text">Ja imaginou se os pets abandonados, conseguissem matar a sede e a fome sozinhos?
+            A idéia é fazer circular a iniciativa de instalar dispositivos que liberam comida e àgua para os animais em situação de rua.</p>
+          <p><strong>Se quiser ajudar fique a vontade, os bichinhos de rua vão amar muito ❤</strong> 
+          </p>
+          <a href="https://www.youtube.com/watch?v=5kyPC5YhWTc" class="btn btn-primary">Faça você mesmo! </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER 
+================================================== -->
+<div id="footer">
+  <footer class="row">
+  <p class="floatright">
+    <a href= "#top">
+      <span></span>
+      </a>
+    </p>
+	<div class="four columns">
+		<h1>Horário de Funcionamento</h1>
+		<p>
+			 Segunda-Sexta, das 08h às 12h e 13:30h às 20h | Sábado das 08h às 12h e 13:30h às 20h
+		</p>
+        <p>
+             Celular: (11)99211-0000
+        </p>
+        <p>Email: contato@doeracaoparaumpet.com.br</p>
+	</div>
+	<div class="three columns">
+		<h1>Redes Sociais</h1>
+		
+        <a href="https://www.facebook.com/doeracaoparaumpet" target="_blank">
+            <img src="img/facebook.png" width="32px" height="32px" alt="Doeracaofb">
+        </a>
+
+        <a href="https://www.instagram.com/doeracaoparaumpet" target="_blank">
+            <img src="img/instagram.png" width="32px" height="32px" alt="Doeracaoinsta">
+        </a>
+
+         <a href="https://whatsapp!" target="_blank">
+            <img src="img/whatsapp.png" width="32px" height="32px" alt="Doeracaozap">
+        </a>
+
+        <a href="https://youtube!" target="_blank">
+          <img src="img/youtube.png" width="32px" height="38px" alt="Doeracaoyt">
+      </a>
+        
+
+    <p>
+			 WhatsApp: (11) 99211-0000
+		</p>
+
+      
+
+		
+	</div>
+    <div class="four columns">
+		<h1>Endereço</h1>
+		
+			<p>
+			 Rua Cap. Lorem ipsum dolor sit amet consectetur adipisicing elt, 611, lorem, Loja 00, Condomínio lorem Residence, São Paulo, SP - CEP 00000-000
+
+		<br><br>
+            Próximo ao Hotel Lorem 
+		</p>
+
+</footer>
+</div>
+   <!--  footer feito por -->
+  <div class="bg-roxo text-white text-center  ">
+    <p class="rodape">
+      Desenvolvido com HTML, CSS e Bootstrap por Vanessa Mello, enquanto aluna da <span class="footer-reprograma">{reprograma}</span> 2020.
+    </p>
+  </div>
+  </footer>
+ 
 
     <script src="Bootstrap/js/jquery-3.5.1.min.js"></script>
     <script src="Bootstrap//js/bootstrap.min.js"></script>
